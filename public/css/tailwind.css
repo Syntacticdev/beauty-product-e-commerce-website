@@ -551,10 +551,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 100%;
 }
 
-.h-8 {
-  height: 2rem;
-}
-
 .h-6 {
   height: 1.5rem;
 }
@@ -577,10 +573,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-\[250px\] {
   width: 250px;
-}
-
-.w-8 {
-  width: 2rem;
 }
 
 .w-6 {
@@ -766,8 +758,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 2.5rem;
 }
 
-.text-\[15px\] {
-  font-size: 15px;
+.text-\[12px\] {
+  font-size: 12px;
 }
 
 .font-extrabold {
@@ -829,10 +821,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     display: grid;
   }
 
-  .sm\:h-6 {
-    height: 1.5rem;
-  }
-
   .sm\:h-8 {
     height: 2rem;
   }
@@ -849,10 +837,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: 300px;
   }
 
-  .sm\:w-6 {
-    width: 1.5rem;
-  }
-
   .sm\:w-8 {
     width: 2rem;
   }
@@ -867,6 +851,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .sm\:justify-items-end {
     justify-items: end;
+  }
+
+  .sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }
 
@@ -886,11 +875,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:px-5 {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
-  }
-
-  .md\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
   }
 }
 
