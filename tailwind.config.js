@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./*.html"],
+  content: ["./public/*.html"],
   theme: {
     extend: {
       gridTemplateRows: {

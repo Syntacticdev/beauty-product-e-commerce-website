@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "devserve": "npx tailwindcss -i ./css/styles.css -o ./css/tailwind.css ",
+    "serve": "npx tailwindcss -i ./public/css/styles.css -o ./public/css/tailwind.css --watch"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
