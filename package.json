@@ -1,0 +1,16 @@
+{
+  "name": "beauty_product",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./css/styles.css -o ./css/tailwind.css ",
+    "serve": "npx tailwindcss -i ./css/styles.css -o ./css/tailwind.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}

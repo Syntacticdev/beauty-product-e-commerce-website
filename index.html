@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/tailwind.css" />
+  </head>
+  <body class="overflow-x-hidden">
+    <header class="flex p-3 justify-between py-4 md:px-5">
+      <a href="" class="text-logo text-2xl font-extrabold">MARKHOR</a>
+
+      <nav class="hidden md:flex">
+        <li class="list-item"><a href="/">Home</a></li>
+        <li class="list-item"><a href="/faq">Faq</a></li>
+        <li class="list-item"><a href="/contact">Contact</a></li>
+        <li class="list-item"><a href="/about">About</a></li>
+        <li class="list-item"><a href="/product">Product</a></li>
+        <li class="list-item"><a href="/contact">Blog</a></li>
+      </nav>
+
+      <button><img src="/img/menu.png" class=" w-10 h-10 md:hidden "  alt=""></button>
+    </header>
+
+    <main>
+      <div
+        class="
+          show__board
+          h-[85vh]
+          w-screen
+          bg-[url('/img/beauty-4993471_1920.jpg')]
+          bg-center bg-no-repeat bg-cover
+          flex
+          justify-end
+          items-center
+          sm:justify-items-end
+        "
+      >
+        <div class="hint px-4 sm:w-1/2 lg:px-36">
+          <h3 class="uppercase text-2xl tracking-widest font-bold">
+            Best Beauty Items
+          </h3>
+          <p class="my-4">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio culpa
+            magnam labore similique ea expedita nulla laudantium nihil rem
+            aperiam!
+          </p>
+
+          <button
+            class="
+              border-2
+              hover:text-white hover:bg-black
+              border-black
+              py-1
+              px-4
+              rounded-2xl
+              mt-3
+            "
+          >
+            Start Shopping
+          </button>
+        </div>
+      </div>
+
+      <div class="product py-6">
+        <h1 class="text-center font-semibold text-2xl uppercase
+         ">Recent Product</h2>
+
+         <div class="recent__product flex flex-col gap-2 my-4 px-7 items-center justify-center sm:grid  sm:grid-cols-4 ">
+           <div class="product_card grid border-2 border-black py-4 my-4 items-center justify-center h-66 w-64 grid-rows-card md:border-0 ">
+             <img src="./img/1173fed6e2fc8c8eecfdccab9d81005c.jpg"  class=" object-contain h-4/5 w-full alt="">
+
+             <div class="product_details text-center">
+               <h3 class=" font-semibold text-lg ">D&G Perfume</h3>
+               <h4 class="price text-amber-500" >$140.05</h4>
+             </div>
+           </div>
+
+           <div class="product_card border-2 border-black py-4 my-4  grid items-center justify-center  h-66 w-64 grid-rows-card md:border-0 ">
+             <img src="./img//06d8686c4ffbb54752ecac44b21a4ae6.jpg" class="object-contain  h-4/5 w-full " alt="">
+            <!-- Products start here -->
+             <div class="product_details text-center">
+               <h3 class=" font-semibold text-lg ">D&G Perfume</h3>
+               <h4 class="price text-amber-500" >$140.05</h4>
+             </div>
+           </div>
+
+           <div class="product_card border-2 border-black my-4 h-66 w-64 md:border-0 ">
+             <img src="./img/087e67049fc9dac5cc0b63d703eb322c.jpg"  class=" object-contain h-4/5 w-full alt="">
+
+             <div class="product_details text-center">
+               <h3 class=" font-semibold text-lg ">D&G Perfume</h3>
+               <h4 class="price text-amber-500" >$140.05</h4>
+             </div>
+           </div>
+
+           <div class="product_card border-2 border-black my-4 h-66 w-64 md:border-0">
+             <img src="./img/087e67049fc9dac5cc0b63d703eb322c.jpg"  class=" object-contain h-4/5 w-full alt="">
+
+             <div class="product_details text-center">
+               <h3 class=" font-semibold text-lg ">D&G Perfume</h3>
+               <h4 class="price text-amber-500" >$140.05</h4>
+             </div>
+           </div>
+
+          
+
+           <!-- Products ends here -->
+         </div>
+      </div>
+
+      <div class="adverts py-6 h- grid grid-cols-1 sm:grid-cols-2 gap-12  ">
+        <div class="h-full object-contain relative">
+          <img src="/img/pexels-cottonbro-4153626.jpg" class="h-full w-full"alt="">
+          <div class="overlay  absolute grid items-center justify-center top-0 left-0 w-full h-full bg-black mix-blend-screen ">
+            <div  class="font-extrabold z-40 text-3xl tracking-widest text-white ">
+              <h2>UPTO</h2>
+            <h2  class="text-yellow-400 text-7xl ">30% OFF</h2>
+            <h2  class=" text-7xl " >IN SKIN</h2>
+            <h2>PRODUCTS</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid gap-8  grid-rows-2 grid-cols-1  ">
+          <div class="h-full  relative">
+            <img src="/img/pexels-cottonbro-4153610.jpg" class="h-full w-full" alt="">
+            <div class="overlay  absolute grid items-center justify-center top-0 left-0 w-full h-full bg-black mix-blend-screen ">
+              <div  class="font-extrabold z-40 text-3xl tracking-widest text-white ">
+                <h2  class=" text-5xl " >BEAUTIFUL</h2>
+              <h2  class="text-yellow-400 text-4xl ">WOMEN DRESS</h2>
+              <h2>COLLECTIONS</h2>
+              </div>
+            </div>
+          </div>
+          <div class="h-full overflow-hidden  relative">
+            <img src="/img/pexels-cottonbro-4153610.jpg" class="h-full w-full"  alt="">
+            <div class="overlay  absolute grid items-center justify-center top-0 left-0 w-full h-full bg-black mix-blend-screen ">
+              <div  class="font-extrabold z-40 text-3xl tracking-widest text-white ">
+                <h2  class="text-4xl" >MANY</h2>
+              <h2  class="text-yellow-400 text-5xl">PRODUCTS</h2>
+              <h2 class="text-4xl">FOR SKIN</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+
+    <footer class="flex justify-center items-center flex-col py-4 ">
+        <h1 class="text-3xl font-semibold">JOIN OUR MAILING LIST</h1>
+        <p class="sm:w-2/4 text-center my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam pariatur porro adipisci.</p>
+
+        <div>
+          <form class="flex" action="">
+            <input type="text" placeholder="Email Address" class="outline-none border-2 w-[300px] px-2 py-2 border-black">
+            <button class=" bg-black text-white  px-3 py-3 " >Go</button>
+          </form>
+        </div>
+        <ul class="flex my-6">
+          <li class="mx-4 w-8 h-8"><a href=""><img src="/img/facebook-app-symbol.png" alt=""></a></li>
+          <li class="mx-4 w-8 h-8"><a href=""><img src="/img/twitter.png" alt=""></a></li>
+          <li class="mx-4 w-8 h-8"><a href=""><img src="/img//google-plus.png" alt=""></a></li>
+          <li class="mx-4 w-8 h-8"><a href=""><img src="/img/linkedin.png" alt=""></a></li>
+          <li class="mx-4 w-8 h-8"><a href=""><img src="/img/pinterest.png" alt=""></a></li>
+        </ul>
+
+        <h3>&COPY; 2022 MARKHOR. All rights Reserved</h3>
+    </footer>
+  </body>
+</html>
